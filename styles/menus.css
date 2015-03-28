@@ -1,0 +1,22 @@
+/* Menu container */
+._558b ._54ng {
+	border: 0 none !important;
+	-webkit-border-radius: 2px !important;
+	        border-radius: 2px !important;
+	
+	-webkit-box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0 !important;
+	        box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0 !important;
+}
+
+/* Menu item */
+._558b ._54nc {
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+	border: 0 none !important;
+	font-size: 14px !important;
+}
+	/* Selected menu item */
+	._558b ._54ne ._54nc {
+		/*background: #ebeef4 !important;
+		color: black !important;*/
+	}

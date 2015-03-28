@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Material Design for Facebook",
+	"version": "1.0",
+	"description": "Change the Facebook interface to a Material Design visual style.",
+	
+	"permissions": [
+		"*://facebook.com/*",
+		"*://www.facebook.com/*"
+	],
+	
+	"content_scripts": [{
+		"matches": [
+			"*://facebook.com/*",
+			"*://www.facebook.com/*"
+		],
+		"css": [
+			"styles/layout.css",
+			"styles/menus.css"
+		]
+	}]
+}
